@@ -52,6 +52,7 @@ const Navbar = () => {
 </svg>
 
             </button>
+            
           ) : (
             <button
               onClick={() => setNavbarOpen(false)}
