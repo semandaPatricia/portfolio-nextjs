@@ -2,10 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import NavLink from "./Navbarlink";
-
-
-
-//import {  XMark } from "@heroicons/react/24/solid";
+//import { Bar3,  XMark } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
