@@ -1,17 +1,17 @@
-import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
-//import NavBar from "./components/Navbar";
-//import Home from './components/Home';
-const Homepage = () => {
+import HeroSection from "../components/HeroSection";
+import AboutSection from "./about/Page";
+import ContactPage from "./contact/Page";
+const Home = () => {
   return (
     <main className="">
-      <div>
-        hello world
+      <div className="mt-8">
+       
         <HeroSection />
+        <AboutSection/>
+        <ContactPage/>
       </div>
-      <Footer />
     </main>
   );
 };
 
-export default Homepage;
+export default Home;
