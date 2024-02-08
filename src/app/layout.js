@@ -19,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={rubik.className}>
+      <body className={rubik.className}  >
       
         <div className=" w-screen h-screen bg-gradient-to-b from-blue-200 to-slate-700">
           <NavBar/>
@@ -31,3 +31,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+

@@ -1,6 +1,8 @@
 import HeroSection from "../components/HeroSection";
 import AboutSection from "./about/Page";
 import ContactPage from "./contact/Page";
+import ProjectSection from "./projects/Page";
+
 const Home = () => {
   return (
     <main className="">
@@ -8,6 +10,8 @@ const Home = () => {
        
         <HeroSection />
         <AboutSection/>
+        <ProjectSection/>
+        
         <ContactPage/>
       </div>
     </main>
