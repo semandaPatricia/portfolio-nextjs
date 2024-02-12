@@ -1,3 +1,5 @@
+
+
 "use client";
 import React, { useState } from "react";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
@@ -125,7 +127,7 @@ const ContactPage = () => {
             </div>
             <button
               type="submit"
-              className="bg-red-400 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-1/2 "
+              className=" bg-gradient-to-l from-cyan-400 via-cyan-400 to-blue-700 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-1/2 "
             >
               Send Message
             </button>

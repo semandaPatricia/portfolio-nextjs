@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={rubik.className}  >
       
-        <div className=" w-screen h-screen bg-gradient-to-b from-blue-200 to-slate-700">
+        <div className=" w-screen h-screen ">
           <NavBar/>
           {children}
           <Footer/>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link'; // Import the Link component
 
 const HeroSection = () => {
   return (
@@ -11,19 +12,24 @@ const HeroSection = () => {
           fill
           alt="Image description"
         />
+
       </div>
       {/* TEXT CONTAINER */}
-      <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col justify-center">
+      <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col justify-center ">
         {/* TITLE */}
-        <h2 className="text-4xl font-bold text-black mb-4">Tech experience, designing today</h2>
+        <h2 className="text-4xl font-bold text-white mb-4">Tech experience, designing today</h2>
         {/* DESCRIPTION */}
-        <p className="md:text-xl">
+        <p className="md:text-xl text-black">
           I am a full stack web developer with a passion for creating interactive and responsive web applications. I have experience working with JavaScript, Next.js, React, Redux, Node.js, Express, MongoDB, HTML, CSS, Tailwind CSS, and Git. I am a quick learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing applications.
         </p>
         {/* BUTTONS */}
         <div className="flex gap-4 mt-4">
-          <button className="bg-red-700 ring-1 ring-black text-white px-4 py-2 rounded">View my work</button>
-          <button className="px-4 py-2 ring-1 ring-black rounded text-black">Contact me</button>
+          <Link href="/projects"> {/* Wrap the button with Link component */}
+            <button className="bg-black ring-1 ring-black text-white px-4 py-2 rounded">View my work</button>
+          </Link>
+          <Link href="/contact"> {/* Wrap the button with Link component */}
+            <button className="px-4 py-2 ring-1 ring-black rounded text-black">Contact me</button>
+          </Link>
         </div>
       </div>
     </div>

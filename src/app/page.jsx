@@ -5,8 +5,8 @@ import ProjectSection from "./projects/Page";
 
 const Home = () => {
   return (
-    <main className="">
-      <div className="mt-8">
+    <main className="bg-gradient-to-l from-cyan-400 via-cyan-900 to-blue-500">
+      <div className="mt-0">
        
         <HeroSection />
         <AboutSection/>

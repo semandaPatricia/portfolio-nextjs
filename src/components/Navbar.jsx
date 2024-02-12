@@ -32,7 +32,8 @@ const NavBar = () => {
           className="text-2xl md:text-5xl text-white font-semibold"
         >
           <h1 className="text-white">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-700">
+            <span className="text-transparent bg-clip-text 
+            bg-gradient-to-l from-cyan-400 via-cyan-400 to-blue-700">
               <span className="text-white">Pat</span>Codes
             </span>
           </h1>
